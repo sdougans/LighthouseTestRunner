@@ -1,1 +1,3 @@
 # Lighthouse
+
+init
