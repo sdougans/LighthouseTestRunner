@@ -1,0 +1,9 @@
+{
+  "name": "lighthousetestrunner",
+  "version": "1.0.0",
+  "description": "init",
+  "main": "lighthouse.js",
+  "scripts": {
+    "test": "node lighthouse.js"
+  }
+}
