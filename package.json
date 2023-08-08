@@ -4,6 +4,10 @@
   "description": "init",
   "main": "lighthouse.js",
   "scripts": {
-    "test": "node lighthouse.js"
+    "test:lighthouse": "node lighthouse.js"
+  },
+  "devDependencies": {
+    "chrome-launcher": "^0.15.2",
+    "lighthouse": "^11.0.0"
   }
 }
