@@ -36,7 +36,7 @@ result.push(', URL, Mobile_Performance, Mobile_A11y, Mobile_BestPractices, Mobil
             var cleanUrl = runnerResult.lhr.mainDocumentUrl.replace(/\.|\/|:/gm, '-').replace(/--/gm, '');
 
             var report = runnerResult.report
-            fs.writeFileSync(`./reports/html-${timestamp}-${cleanUrl}-${options.strategy}.html`)
+            fs.writeFileSync(`./reports/html-${timestamp}-${cleanUrl}-${options.strategy}.html`, report)
         }
     }
 
