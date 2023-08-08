@@ -1,0 +1,20 @@
+trigger:
+- none
+
+pool: something
+
+steps:
+
+- script: |
+    npm install
+  displayName: 'npm install'
+
+- script: |
+    npm run test:lighthouse
+  displayName: 'run lighthouse tests'
+
+- task: PublishPipelineArtifact@1
+  displayName: 'publish lighthouse results'
+  inputs:
+    targetPath: './reports'
+    artifct: 'lighthouse-reports'
