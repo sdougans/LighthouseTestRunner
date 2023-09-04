@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "chrome-launcher": "^0.15.2",
-    "lighthouse": "^11.0.0"
+    "lighthouse": "^11.0.0",
+    "puppeteer": "^21.1.1"
   }
 }
